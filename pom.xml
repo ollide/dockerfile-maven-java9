@@ -27,6 +27,13 @@
             </goals>
           </execution>
         </executions>
+        <dependencies>
+          <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-archiver</artifactId>
+            <version>3.4</version>
+          </dependency>
+        </dependencies>
       </plugin>
     </plugins>
   </build>
